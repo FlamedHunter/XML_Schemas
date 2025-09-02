@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="orders">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="order" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="customer" type="xsd:string"/>
+                            <xsd:element name="amount" type="xsd:decimal"/>
+                            <xsd:element name="date" type="xsd:date"/>
+                        </xsd:sequence>
+                        <xsd:attribute name="id" type="xsd:int"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
